@@ -1,1 +1,34 @@
+#main_img{
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+.titless{
+	font-weight: bold;
+	font-size: 100px;
+	color: white;
+	text-align: center;
+}
+body{
+	background-color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a:hover {
+    color: red;
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+    text-align:center
+}
+/*a {
+	under
+}*/
+
 /* Put your CSS Styling here! */
