@@ -5,27 +5,59 @@
 	margin-right: auto;
 	width: 1000px;
 }
+.main_img_2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 .titless{
 	font-weight: bold;
 	font-size: 100px;
 	color: white;
 	text-align: center;
 }
+.smalltitles{
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
 body{
 	background-color: black;
 }
-ul {
+/*ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}*/
+li {
+    display: inline;
 }
-a:hover {
-    color: red;
+a{
+	text-decoration: none;
+	font-size: 200%;
+	color: white;
+	padding: 8px;
 }
-.active {
-    background-color: #4CAF50;
-    color: white;
-    text-align:center
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
+#img1{
+	margin-right:auto;
+	margin-left: auto;
+}
+.textss{
+	color: white;
+}
+.line_1{
+	display: inline;
+	width: 300px;
+	height: 330px;
+}
+.line_2{
+	display: inline;
+	width: 300px;
+	height: 330px;
 }
 /*a {
 	under

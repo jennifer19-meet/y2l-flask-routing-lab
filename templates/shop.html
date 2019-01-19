@@ -7,12 +7,18 @@
 </head>
 <body >
 <ul>
-  <li><a href="{{url_for('home_page')}}" class="active">Home</a></li>
-  <!-- <li><a href="news.asp">News</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-  <li><a href="about.asp">About</a></li> -->
+<li><a href="{{url_for('home_page')}}" >Home</a></li>
+  <li><a href="{{url_for('shopnow')}}" >Shop</a></li>
+  <!-- <li><a href="news.asp">News</a></li> -->
+  <li><a href="{{url_for('contactnow')}}">Contact</a></li>
+  <li><a href="{{url_for('aboutnow')}}">About</a></li>
 </ul>
 <h1 class="titless">SHOP NOW!</h1>
 <img src="static/2.jpg" id="main_img">
+<br>
+<br>
+<h2 class="smalltitles"><a href="{{url_for('womens_tops')}}">Tops</a></h2>
+<br>
+<img src="static/women_tops.jpg" width="200" id="img1">
 </body>
 </html>
